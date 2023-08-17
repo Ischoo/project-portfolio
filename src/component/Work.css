@@ -1,29 +1,31 @@
 .workContainer {
     justify-content: center;
-    
+    display: flex;
     height: 60%;
     width: 60%;
     top: 35%;
-    margin: auto;
     position: absolute;
 }
 .workImage {
-   margin-top: 10%;
-    width: 80%;
+   margin: 10%;
+    width: 60%;
     height: 40%;
     position: relative;
 }
 .competense {
     
-    height: 20%;
-    width: 80%;
+    width: 60%;
+    aspect-ratio: 6 / 1;
+    margin: 10%;
     bottom: 0;
     position: absolute;
 
 }
 .message {
     font-family: 'Raleway', sans-serif;
-    margin: auto;
+    width: 40%;
+    height: fit-content;
+    
     font-size: 20px;
     border-radius: 20px;
     border: 5px solid white;
@@ -31,6 +33,8 @@
     background-color: azure;
 }
 .workImage img {
+    display:inline-flex;
+    flex: auto;
     width: 150px;
     height: 150px;
     border-radius: 20px;
