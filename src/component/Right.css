@@ -1,0 +1,71 @@
+
+.posRA {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    border-left: 5px solid black;
+    background-color:bisque;
+    background-size: cover;
+    transition: width 1s;
+}
+.posRA:hover {
+    width: 70%;
+}
+.posRA:hover + .posLA {
+    width: 30%;
+}
+.posRB {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    right: 0;
+    border-left: 5px solid black;
+    background-color:bisque;
+    background-size: cover;
+    transition: width 1s;
+    z-index: 1;
+}
+.posRB + .posLA {
+    width: 10%;
+    }
+
+
+
+.posR1 {
+    font-family: 'Raleway', sans-serif;
+    border: 5px solid black;
+    border-radius: 25px;
+    font-size:30px;
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    right: 20%;
+    top: 50%;
+    background-color: bisque;
+    transition: top 1s;
+   
+    
+
+}
+
+.posR2 {
+    font-family: 'Raleway', sans-serif;
+    border: 5px solid black;
+    border-radius: 25px;
+    font-size:30px;
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    top: 10%;
+    right: 20%;
+    background-color: bisque;
+    transition: top 1s;
+    
+}
+
+.posR1 + .showAbout {
+    display: none;
+}
+
+
