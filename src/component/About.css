@@ -2,11 +2,11 @@ div {
     display: flex;
 }
 .info {
-    position: absolute;
+    position: relative;
     justify-content: center;
     top: 40%;
     width: 70%;
-    height: 30%;
+    height: 50%;
     
 
 
@@ -23,9 +23,11 @@ p {
 }
 #hello{
     font-family: 'Raleway', sans-serif;
-    position: absolute;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
     font-size: 50px;
-    left: 5%;
+    
 
     
 }
