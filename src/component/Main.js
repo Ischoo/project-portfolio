@@ -7,6 +7,7 @@ import "./Main.css";
 
 function Main() {
     return(
+        // components that holds left and right component
         <div className="mainContainer">
             <Left />
             <Right />

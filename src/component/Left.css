@@ -1,5 +1,5 @@
 
-.posLA {
+.posL1_Area {
     position: absolute;
     width: 50%;
     height: 100%;
@@ -10,14 +10,14 @@
     transition: width 1s;
     
 }
-.posLA:hover {
+.posL1_Area:hover {
     width: 70%;
 }
-.posLA:hover + .posRA {
+.posL1_Area:hover + .posR1_Area {
     width: 30%;
 }
 
-.posLB {
+.posL2_Area {
     position: absolute;
     width: 90%;
     height: 100%;
@@ -28,10 +28,10 @@
     transition: width 1s;
     z-index: 1;
 }
-.posLB +.posRA {
+.posL2_Area +.posR1_Area {
     width: 10%;
 }
-.posL1 {
+.posL1_Btn {
     font-family: 'Raleway', sans-serif;
     border: 5px solid white;
     color: white;
@@ -48,7 +48,7 @@
 
 }
 
-.posL2 {
+.posL2_Btn {
     font-family: 'Raleway', sans-serif;
     border: 5px solid white;
     color: white;
@@ -64,6 +64,6 @@
     
 }
 
-.posL1 + .showWork {
+.posL1_Btn + .showWork {
     display: none;
 }

@@ -4,6 +4,7 @@ import Main from './component/Main';
 
 function App() {
   return (
+    //main component, holds the other components
     <div className="App">
       <Header />
       <Main />

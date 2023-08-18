@@ -3,6 +3,7 @@ import "./About.css"
 
 function About() {
     return(
+        // here should be some info about myself as well as links to email and other websites
         <div className="aboutContainer">
             <div className="info">
                 <h2 id="hello">Hello there</h2>

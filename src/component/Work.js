@@ -6,6 +6,7 @@ import "./Work.css";
 
 function Work() {
     return(
+        // work container, includes links to my projects and an image of my programming skills
     <div className="workContainer">
             <div className="workImage">
                 <a href="https://ischoo.github.io/Munamii/" target="_blank"><img src={img} alt="Work 1"></img> </a>
